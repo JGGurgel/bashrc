@@ -142,4 +142,4 @@ else
 fi
 unset color_prompt force_color_prompt
 
-bind '"\C-f": "cd $(find . -type d 2>/dev/null | fzf)\n"'
+bind '"\C-f": "cd $(find ~ -type d 2>/dev/null | fzf)\n"'
